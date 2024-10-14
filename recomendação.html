@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dia do Desporto</title>
+        <style>
+            a {
+                text-decoration: none;
+            }
+            .outline {
+                border-bottom: 3px solid black;
+            }
+
+            img {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+        
+            /* On hover, the image will slightly zoom and add a shadow */
+            img:hover {
+                transform: scale(1.05); /* Slight zoom-in */
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+            }
+
+            html * {
+                font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+            }
+            @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+            .aboutus {
+                border-right: solid 5px rgba(255,255,255,.75);
+                white-space: nowrap;
+                overflow: hidden;    
+                font-family: 'Source Code Pro', monospace;  
+                font-size: 28px;
+                color: rgba(255,255,255,.70);
+            }
+
+            /* Animação */
+            .aboutus {
+                animation: animated-text 1.5s linear 0.5s 1 normal both,
+                animated-cursor 600ms linear infinite;
+            }
+
+            /* largura da animação */
+
+            @keyframes animated-text{
+                from{width: 0;}
+                to{width: 573px;}
+            }
+
+            /* barrinha no final */
+
+            @keyframes animated-cursor{
+                from{border-right-color: rgba(255,255,255,.75);}
+                to{border-right-color: transparent;}
+            }
+            
+        </style>
+    </head>
+    <body  style="background-image: url(img/background_home.jpg) ">
+        <center>
+            
+            <br> <img src="img/title.gif">
+            <br>
+            <br>
+            <table style="border: 2px solid black; border-radius: 10px;">
+                <tr style="background-color: rgba(255,255,255, 0.8);">
+                    <th style="border-right: 2px solid black;">
+                        <a href="index.html">
+                            <b>
+                                <h2 style="color: black">&nbsp;&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                            </b>
+                        </a>
+                    </th>
+                    <th style="border-right: 2px solid black;">
+                        <a href="atividades.html">
+                            <h2 style="color: black">&nbsp;&nbsp;Atividades&nbsp;&nbsp;</h2>
+                        </a>
+                    </th>
+                    <th>
+                        <a href="recomendação.html">
+                            
+                            <h1 class="outline" style="color: black">Recomendações</h2>
+                        </a>
+                    </th>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th>
+                        <u style="color:white">
+                            <h1 class="aboutus" style="color:white">Recomendações sobre a saúde física</h1>
+                        </u>
+                    </th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th style="width:10px;">
+                        <img style="width: 500px; height: 300px;" src="img/fitness.jpg">
+                    </th>
+                    <th style="background-color: rgba(255,255,255, 0.8); border: 3px solid black; border-radius: 10px; text-align: left;">
+                        <b>
+                            <h1 style="text-align: center;">Exercite-se regularmente</h1>
+                            <h3 style="color:rgb(16, 12, 31)"><ul>
+                                <li>Alongue regularmente e considere atividades como o ioga ou o Pilates para melhorar a flexibilidade, o equilíbrio e a postura.</li>
+                               <br>
+                                <li>A chave do sucesso é a consistência. Encontre atividades de que goste para tornar o exercício regular sustentável.</li>
+                                <br>
+                                <li>Faça atividades de fortalecimento muscular pelo menos 2 dias por semana.</li>
+                            </ul>
+                            </h3>
+                        </b>
+                    </th>
+                </tr>
+                <tr>
+				 <th style="width:10px;">
+                        <img style="width: 500px; height: 300px;" src="img/diet.jpg">
+                    </th>
+                    <th style="background-color: rgba(255,255,255, 0.8); border: 3px solid black; border-radius: 10px; text-align: left;">
+                        <b>
+                            <h1 style="text-align: center;">Dieta Equilibrada</h1>
+                            <h3 style="color:rgb(16, 12, 31)">
+                                <ul>
+                                    <li>Concentre-se em alimentos integrais, como vegetais, frutas, cereais integrais, proteínas magras e gorduras saudáveis.</li>
+                                    <br>
+                                    <li>Beba muita água ao longo do dia. A orientação geral é de 8 copos (2 litros) por dia.</li>
+                                    <br>
+                                    <li>Faça um bate-papo sobre dieta e esteja atento aos excessos.</li>
+                                </ul>
+                            </h3>
+                        </b>
+                    </th>
+                </tr>
+                
+                <tr>
+                    <th style="width:10px;">
+                           <img style="width: 500px; height: 300px;" src=" img/bad habit.jpeg">
+                       </th>
+                       <th style="background-color: rgba(255,255,255, 0.8); border: 3px solid black; border-radius: 10px; text-align: left;">
+                           <b>
+                               <h1 style="text-align: center;">Evite hábitos prejudiciais</h1>
+                               <h3 style="color:rgb(16, 12, 31)">
+                                   <ul>
+                                       <li>Evite fumar ou utilizar produtos de tabaco, pois aumentam o risco de cancro, doenças cardíacas e problemas respiratórios.</li>
+                                       <br>
+                                       <li>Limite o tempo passado nos ecrãs, em vez de sair e fazer atividades.</li>
+                                       <br>
+                                       <li>Evite beber em excesso, o consumo geral de álcool deve ser de uma bebida por dia.</li>
+                                   </ul>
+                               </h3>
+                           </b>
+                       </th>
+                   </tr>
+
+
+                   <tr>
+                    <th style="width:10px;">
+                           <img style="width: 500px; height: 300px;" src="img/sleep.jpg">
+                       </th>
+                       <th style="background-color: rgba(255,255,255, 0.8); border: 3px solid black; border-radius: 10px; text-align: left;">
+                           <b>
+                               <h1 style="text-align: center;">Sono adequado</h1>
+                               <h3 style="color:rgb(16, 12, 31)">
+                                   <ul>
+                                       <li>Os adultos devem ter como objetivo 7 a 9 horas de sono de qualidade todas as noites. Um sono adequado é essencial para a recuperação, clareza mental e bem-estar geral.</li>
+                                       <br>
+                                       <li>mantenha um horário de sono consistente, mantenha o quarto escuro e fresco e limite o tempo de ecrã antes de dormir para melhorar a qualidade do sono.</li>
+                                       
+                                       
+                                   </ul>
+                               </h3>
+                           </b>
+                       </th>
+                   </tr>
+            </table>
+            <br>
+            <h4>© 2024 Alexandre Taveira, Sanjot Kaur e Gabriel Palma. Todos os direitos reservados.</h4>
+        </center>
+    </body>
+</html>
